@@ -165,5 +165,5 @@ def classify_image_segments(image_path):
         plot_3d_histogram(corr_map, f'3D Correlation Histogram {segment_size}x{segment_size}')
 
 # Виклик функції для обробки вашого зображення
-image_path = r'image\I22.BMP'
-classify_image_segments(image_path)
+classify_image_segments(r'image\I22.BMP')
+classify_image_segments(r'image\image.jpg')
